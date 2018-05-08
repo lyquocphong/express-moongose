@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "nodemon": "./node_modules/.bin/nodemon index.js",
+    "start": "npm run nodemon"
   },
   "repository": {
     "type": "git",
@@ -19,6 +21,7 @@
   "homepage": "https://github.com/lyquocphong/express-moongose#readme",
   "dependencies": {
     "express": "^4.16.3",
-    "express3-handlebars": "^0.5.2"
+    "express3-handlebars": "^0.5.2",
+    "nodemon": "^1.17.4"
   }
 }
