@@ -20,7 +20,9 @@
   },
   "homepage": "https://github.com/lyquocphong/express-moongose#readme",
   "dependencies": {
+    "body-parser": "^1.18.2",
     "express": "^4.16.3",
+    "express-validators": "^1.0.4",
     "express3-handlebars": "^0.5.2",
     "nodemon": "^1.17.4"
   },
